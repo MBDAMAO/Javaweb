@@ -20,4 +20,13 @@
         <servlet-name>Redirect</servlet-name>
         <url-pattern>/test</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SessionText</servlet-name>
+        <servlet-class>com.damao.servlet.Session</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionText</servlet-name>
+        <url-pattern>/session</url-pattern>
+    </servlet-mapping>
 </web-app>
